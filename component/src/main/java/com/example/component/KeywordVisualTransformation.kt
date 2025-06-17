@@ -29,7 +29,7 @@ internal class KeywordVisualTransformation(
 
                 lastIndex = span.end.coerceAtMost(text.length)
             }
-            append(text.substring(lastIndex)) // Оставшийся текст
+            append(text.substring(lastIndex))
         }
         return TransformedText(annotatedString, OffsetMapping.Identity)
     }

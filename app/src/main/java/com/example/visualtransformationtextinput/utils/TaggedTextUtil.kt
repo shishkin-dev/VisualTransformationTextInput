@@ -83,7 +83,6 @@ object TaggedTextUtil {
             // Search first index where text changed
             for (i in editedText.indices) {
                 if (originalText[i] != editedText[i]) {
-                    // Возвращаем индекс удалённого символа
                     // Return index of deleted symbol
                     return i
                 }
