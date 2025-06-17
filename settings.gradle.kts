@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Visual Transformation Text Input"
 include(":app")
- 
+include(":component")
